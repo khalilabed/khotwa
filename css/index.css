@@ -18,8 +18,8 @@ img{object-fit: cover;}
 /* the Start Section code NavBar css*/
 .buttons-soc button ,.buttons-def button ,.buttons-abo button ,.buttons-conn button{ padding: 15px; background-color: #2D3654; color: white; border-radius: 7px;}
 .iconss{font-size: 25px;}
-.nav-link{ color: black;}
-.collapse{padding-right: 15%;}
+.nav-link{ color: black; padding-left: 20px !important;}
+.collapse{padding-right: 10%;}
 /* the End Section code NavBar css*/
 
 
@@ -98,14 +98,20 @@ textarea{ height: 200px; padding: 15px;}
     z-index: 999;
     opacity: 0;
 }
+.Footer a{text-decoration: none; color: var(--color-Basic);}
+.Footer a:hover{ color: rgb(37, 80, 223); transition: .6s;}
 .box-serv:hover::before{ opacity: 1;  color: #135186;  font-size: 150px;  transition: .8s;}
 #fff{ display: none;  margin-bottom: 50px;}
 .vvv{ background-color: white;  padding: 30px;  box-shadow: 0px 0px 5px 0px silver;  border-radius: 15px;}
 .size{width: 300px;   background-color: white !important; color: var(--color-Basic) !important ; font-weight: bold; border: none;}
 .Footer{ background-color: white; background-image: url('../img/fooo.png'); background-repeat: no-repeat; background-position: bottom;}
-
-
-
+.box-higt{height: 350px;}
+.box-higt img{height: 100%;}
+.iti__country-list{left: 1px !important;}
+.tele{direction: initial;}
+.Works img{
+object-fit: contain;
+}
 @media only screen and (max-width:750px) {
     body{ padding: 8px; }
     .resp{ display: flex;flex-direction: column; }
@@ -125,7 +131,7 @@ textarea{ height: 200px; padding: 15px;}
     .top-mobile{padding-top: 20px;}
     .left-right{ padding-left: 0%; padding-right:0%;}
     .mm{padding-top: 30px;}
-    .box-proj{padding-top: 50px;}
+    .box-proj{padding-top: 80px;}
     .padding-foo{ padding-right: 0%;}
     .Footer{text-align: center;}
     .box-img-abo{text-align: center;}
@@ -136,4 +142,7 @@ textarea{ height: 200px; padding: 15px;}
     .why-us{background: none; padding-bottom: 75px; padding-top: 80px;}
     .box-2{ display: none;}
     .mob img{width: 100%;}
+}
+@media only screen and (min-width:1700px) {
+    .container { max-width: 1675px;}
 }
